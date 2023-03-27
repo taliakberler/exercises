@@ -1,1 +1,38 @@
 /* stylesheet for constitution.html */
+body {
+    font-family: "Georgia","Times New Roman", serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.5;
+}
+
+footer > p {
+    font-size: 14px;
+    color: #666;
+}
+
+#preamble p {
+    background-color: rgba(14,31,65,0.2);
+    font-size: 24px;
+    font-style: italic;
+}
+
+.alt-bg {
+    background-color: rgba(201,53,68,0.2);
+}
+
+a:link {
+    color: rgb(14,31,65);
+}
+
+a:visited {
+    color: #595959;
+}
+
+a:hover {
+    color: rgb(201,53,68);
+}
+
+a:active {
+    color: rgb(245, 188, 78);
+}
