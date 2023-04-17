@@ -14,3 +14,49 @@ footer {
 section {
   background-color: #ddd;
 }
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+
+  max-width: 960px;
+  margin: 20px auto;
+  grid-template-areas: 
+  "masthead   masthead"
+  "navigation welcome"
+  "navigation copyright";
+}
+
+header {
+  grid-area: masthead;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+main {
+  grid-area: welcome;
+}
+
+footer {
+  grid-area: copyright;
+}
+
+header,
+footer {
+  padding: 0 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
